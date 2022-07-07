@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  border-bottom: 1px solid;
+  font-size: 14pt;
+  margin: 0;
+}
+ul {
+  margin: 0;
+}
+span, li {
+  cursor: pointer;
+}
+span:hover, li:hover {
+  background-color: #00464d3f;
+}
+textarea {
+  font-family: 'Courier New', Courier, monospace;
+  border: 1px solid rgb(0, 0, 0);
+  font-size: 14px;
+  outline: none;
+  width: 100%;
+  height: 3rem;
+}
+.display-cv {
+  font-size: 12pt;
+  min-width: 8.5in;
+  max-width: 8.5in;
+  min-height: 11in;
+  max-height: 11in;
+  background-color: #fbfbf8;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  padding: .5in;
+  box-sizing: border-box;
+  position: relative;
+}
+.full-name, .contact-info {
+  align-self: center;
+}
+.full-name {
+  font-size: 24pt;
+  font-weight: 900;
+}
+.contact-info {
+  display: flex;
+  padding-bottom: 2rem;
+}
+.section {
+  padding-bottom: 1rem;
+}
+.test {
+  width: 300px;
+  height: 250px;
+  background-color: red;
+}
+.overlay {
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  background-color: purple;
+  transform: translate(0, 200px);
+}
+.bold {
+  font-weight: 900;
+}
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+.cv-input {
+  font-family: 'Courier New', Courier, monospace;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 12pt;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.inline {
+  display: inline;
+}

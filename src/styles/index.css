@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Roboto+Mono:wght@300&family=Roboto+Slab:wght@300&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Joan', serif;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Slab', serif;
+  background: url(./img.png);
+}
