@@ -1,1 +1,1 @@
-# [CV GENERATOR](https://visionary-pudding-d6498c.netlify.app/)
+# [CV GENERATOR](https://cv-creator-one.vercel.app/)
